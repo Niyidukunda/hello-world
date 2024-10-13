@@ -9,7 +9,11 @@ body {
 }
 .row {
     grid-template-rows: 1;
+    justify-items: center;
 }
 .column {
     grid-template-columns: 2;
+}
+p {
+    justify-items: center;
 }
