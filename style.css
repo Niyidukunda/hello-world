@@ -2,22 +2,34 @@ body {
     background-color: orangered;
 }
 .container{
-    display: flex;
-    justify-items: center;
+    display: grid;
     text-align: center;
+  
     border-radius: 25%;
     border: 1px, rgb(246, 219, 219) solid;
+    width: 100%;
+    height:auto;
+    
 }
 .row {
+   
     grid-template-rows: 1;
-    justify-items: center;
+  
+    border: 1px solid black;
+    width: 100%;
 }
 .column {
-    grid-template-columns: 2;
+    
+    border: 1px solid green;
+    width: 100%;
 }
 p {
-    justify-items: center;
-    color: azure;
-    font-size: 20px;
-    text-decoration:aquamarine;
+    font-size:medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch: wider;
+    color: bisque  ;
+    }
+img {
+    
+    outline: cadetblue;
 }
